@@ -211,7 +211,7 @@ data:
   kubeconfig: |
     apiVersion: v1
     kind: Config
-    clusterCIDR: 10.17.16.0/20
+    clusterCIDR: 10.244.0.0/16
     clusters:
     - name: cluster
       cluster:
